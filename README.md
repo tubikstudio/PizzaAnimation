@@ -7,7 +7,7 @@ This is the design concept made real in code. The animated interface was accompl
 Here is how it looks in this project:
 
 
-<img src="https://gifyu.com/images/pizza-demo-2.gif" alt="alt text" style="width:800;height:600">
+<img src="https://gifyu.com/images/pizza-demo-4.gif" alt="alt text" style="width:800;height:600">
 
 How to use it:
 
