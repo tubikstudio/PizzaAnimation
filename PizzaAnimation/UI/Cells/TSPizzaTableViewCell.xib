@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TSPizzaTableViewCell" rowHeight="250" id="KbW-2N-2Qi" customClass="TSPizzaTableViewCell" customModule="PizzaAnimation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KbW-2N-2Qi" id="d5I-PG-WWR">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="249"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6LT-Z3-sAJ" customClass="TSMorfedView" customModule="PizzaAnimation" customModuleProvider="target">
+                        <rect key="frame" x="284" y="43" width="105" height="70"/>
+                        <color key="backgroundColor" red="1" green="0.70980392160000005" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="105" id="AaQ-EG-usA"/>
+                            <constraint firstAttribute="height" constant="70" id="ahw-Au-PjG"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startLength">
+                                <real key="value" value="33"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startHeight">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endHeight">
+                                <real key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravityPart">
+                                <real key="value" value="0.34999999999999998"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startCenterY">
+                                <real key="value" value="45"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endCenterY">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startOffset">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravityValue">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endOffset">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="midHeight">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1ch-55-TKY" customClass="TSMorfedView" customModule="PizzaAnimation" customModuleProvider="target">
+                        <rect key="frame" x="275" y="44" width="104" height="70"/>
+                        <color key="backgroundColor" red="1" green="0.70980392160000005" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="104" id="IYd-BS-gt2"/>
+                            <constraint firstAttribute="height" constant="70" id="QIa-cF-VJW"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startLength">
+                                <real key="value" value="33"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startHeight">
+                                <real key="value" value="17"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endHeight">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravityPart">
+                                <real key="value" value="0.55000000000000004"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startCenterY">
+                                <real key="value" value="44"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endCenterY">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startOffset">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravityValue">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endOffset">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="midHeight">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P2u-Tp-qPF" customClass="TSMorfedView" customModule="PizzaAnimation" customModuleProvider="target">
+                        <rect key="frame" x="244" y="95" width="120" height="61"/>
+                        <color key="backgroundColor" red="1" green="0.70980392160000005" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="Db6-oq-udF"/>
+                            <constraint firstAttribute="height" constant="61" id="Q4Z-Ct-Efx"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startLength">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startHeight">
+                                <real key="value" value="18"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endHeight">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravityPart">
+                                <real key="value" value="0.29999999999999999"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startCenterY">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endCenterY">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startOffset">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravityValue">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endOffset">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="midHeight">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e0m-c2-9gO" customClass="TSMorfedView" customModule="PizzaAnimation" customModuleProvider="target">
+                        <rect key="frame" x="297" y="100" width="100" height="61"/>
+                        <color key="backgroundColor" red="1" green="0.70980392160000005" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="61" id="97T-Jl-YuP"/>
+                            <constraint firstAttribute="width" constant="100" id="QQ7-T4-pB0"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startLength">
+                                <real key="value" value="33"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startHeight">
+                                <real key="value" value="14"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endHeight">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravityPart">
+                                <real key="value" value="0.25"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startCenterY">
+                                <real key="value" value="48"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endCenterY">
+                                <real key="value" value="33"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startOffset">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravityValue">
+                                <real key="value" value="-8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endOffset">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="midHeight">
+                                <real key="value" value="11"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YKr-h3-s5Y" customClass="TSMorfedView" customModule="PizzaAnimation" customModuleProvider="target">
+                        <rect key="frame" x="293" y="99" width="110" height="61"/>
+                        <color key="backgroundColor" red="1" green="0.70980392160000005" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="61" id="GDJ-y7-xZ9"/>
+                            <constraint firstAttribute="width" constant="110" id="qgO-x9-kos"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startLength">
+                                <real key="value" value="40"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startHeight">
+                                <real key="value" value="14"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endHeight">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravityPart">
+                                <real key="value" value="0.25"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startCenterY">
+                                <real key="value" value="48"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endCenterY">
+                                <real key="value" value="44"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startOffset">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gravityValue">
+                                <real key="value" value="-8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endOffset">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="midHeight">
+                                <real key="value" value="11"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza_dynamic" translatesAutoresizingMaskIntoConstraints="NO" id="Slw-1k-hTp">
+                        <rect key="frame" x="254" y="0.0" width="123" height="210"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="123" id="9to-RF-uxE"/>
+                            <constraint firstAttribute="height" constant="210" id="JQu-AP-9it"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza" translatesAutoresizingMaskIntoConstraints="NO" id="8mL-Oj-gdB">
+                        <rect key="frame" x="5" y="0.0" width="590" height="250"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="590" id="Rm3-go-dAZ"/>
+                            <constraint firstAttribute="height" constant="250" id="mME-dG-0qu"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m2v-X7-WTb">
+                        <rect key="frame" x="0.0" y="185" width="600" height="65"/>
+                        <color key="backgroundColor" red="0.89411764709999997" green="0.30980392159999998" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="65" id="NfE-W0-gAW"/>
+                        </constraints>
+                        <state key="normal">
+                            <attributedString key="attributedTitle">
+                                <fragment content="P I Z Z A">
+                                    <attributes>
+                                        <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </state>
+                        <connections>
+                            <action selector="actionButttonPressed:" destination="KbW-2N-2Qi" eventType="touchUpInside" id="kfr-I5-EMp"/>
+                        </connections>
+                    </button>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXJ-9z-dQT">
+                        <rect key="frame" x="1" y="185" width="73" height="64"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="73" id="HHC-Ky-EBa"/>
+                            <constraint firstAttribute="height" constant="64" id="HLY-ah-t6n"/>
+                        </constraints>
+                        <state key="normal" image="close_button"/>
+                        <connections>
+                            <action selector="closeButtonPressed:" destination="KbW-2N-2Qi" eventType="touchUpInside" id="3nz-Bf-pS0"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="e0m-c2-9gO" firstAttribute="centerY" secondItem="8mL-Oj-gdB" secondAttribute="centerY" constant="5" id="5Sl-Te-4Re"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8mL-Oj-gdB" secondAttribute="bottom" constant="-9" id="7Ng-0R-QbX"/>
+                    <constraint firstItem="YKr-h3-s5Y" firstAttribute="centerY" secondItem="8mL-Oj-gdB" secondAttribute="centerY" constant="4" id="BOH-MU-w49"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="m2v-X7-WTb" secondAttribute="trailing" constant="-8" id="E7e-1z-Qyp"/>
+                    <constraint firstItem="1ch-55-TKY" firstAttribute="centerX" secondItem="8mL-Oj-gdB" secondAttribute="centerX" constant="27" id="If0-HI-QJq"/>
+                    <constraint firstItem="Slw-1k-hTp" firstAttribute="centerX" secondItem="8mL-Oj-gdB" secondAttribute="centerX" constant="15" id="IzC-92-H7u"/>
+                    <constraint firstItem="8mL-Oj-gdB" firstAttribute="centerX" secondItem="d5I-PG-WWR" secondAttribute="centerX" id="M5i-7J-pHG"/>
+                    <constraint firstItem="P2u-Tp-qPF" firstAttribute="centerX" secondItem="8mL-Oj-gdB" secondAttribute="centerX" constant="4" id="OCd-rW-qjm"/>
+                    <constraint firstItem="P2u-Tp-qPF" firstAttribute="centerY" secondItem="8mL-Oj-gdB" secondAttribute="centerY" id="PZp-T9-Fjz"/>
+                    <constraint firstItem="e0m-c2-9gO" firstAttribute="centerX" secondItem="8mL-Oj-gdB" secondAttribute="centerX" constant="47" id="Qet-MP-1P3"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="uXJ-9z-dQT" secondAttribute="bottom" constant="-8" id="RK4-XA-Xvg"/>
+                    <constraint firstItem="8mL-Oj-gdB" firstAttribute="centerX" secondItem="d5I-PG-WWR" secondAttribute="centerX" id="Y6X-VZ-Hy5"/>
+                    <constraint firstItem="uXJ-9z-dQT" firstAttribute="leading" secondItem="d5I-PG-WWR" secondAttribute="leadingMargin" constant="-7" id="YG2-MD-9Kb"/>
+                    <constraint firstItem="Slw-1k-hTp" firstAttribute="centerY" secondItem="8mL-Oj-gdB" secondAttribute="centerY" constant="-20" id="aSr-t0-Lrw"/>
+                    <constraint firstItem="m2v-X7-WTb" firstAttribute="leading" secondItem="d5I-PG-WWR" secondAttribute="leadingMargin" constant="-8" id="cPE-KG-HhG"/>
+                    <constraint firstItem="6LT-Z3-sAJ" firstAttribute="centerX" secondItem="8mL-Oj-gdB" secondAttribute="centerX" constant="36" id="dzd-X4-cC1"/>
+                    <constraint firstItem="YKr-h3-s5Y" firstAttribute="centerX" secondItem="8mL-Oj-gdB" secondAttribute="centerX" constant="48" id="ewM-xG-8Ud"/>
+                    <constraint firstItem="6LT-Z3-sAJ" firstAttribute="centerY" secondItem="8mL-Oj-gdB" secondAttribute="centerY" constant="-47" id="naC-j3-Xhp"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="m2v-X7-WTb" secondAttribute="bottom" constant="-9" id="qRv-VW-JNi"/>
+                    <constraint firstItem="1ch-55-TKY" firstAttribute="centerY" secondItem="8mL-Oj-gdB" secondAttribute="centerY" constant="-46" id="zVc-bW-zUU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="button" destination="m2v-X7-WTb" id="yzT-wo-JVx"/>
+                <outlet property="closeButton" destination="uXJ-9z-dQT" id="qeT-zB-4gc"/>
+                <outlet property="dynamicImageView" destination="Slw-1k-hTp" id="Gu6-YT-Qpb"/>
+                <outlet property="dynamicXConstraint" destination="IzC-92-H7u" id="l6y-8t-x5B"/>
+                <outlet property="dynamicYConstraint" destination="aSr-t0-Lrw" id="Tcg-Kf-O6x"/>
+                <outlet property="staticImageView" destination="8mL-Oj-gdB" id="NBI-hx-YIV"/>
+                <outletCollection property="cheeseImageViews" destination="6LT-Z3-sAJ" collectionClass="NSMutableArray" id="s9a-cY-rho"/>
+                <outletCollection property="cheeseImageViews" destination="1ch-55-TKY" collectionClass="NSMutableArray" id="4jt-yq-eWe"/>
+                <outletCollection property="cheeseImageViews" destination="P2u-Tp-qPF" collectionClass="NSMutableArray" id="63c-QG-End"/>
+                <outletCollection property="cheeseImageViews" destination="e0m-c2-9gO" collectionClass="NSMutableArray" id="AHe-DJ-fxg"/>
+                <outletCollection property="cheeseImageViews" destination="YKr-h3-s5Y" collectionClass="NSMutableArray" id="Ta8-E7-w11"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="close_button" width="21" height="21"/>
+        <image name="pizza" width="316" height="206"/>
+        <image name="pizza_dynamic" width="108" height="120"/>
+    </resources>
+</document>
