@@ -6,3 +6,6 @@ This is the design concept made real in code. The animated interface was accompl
 
 <img src="http://i.giphy.com/26ufn7dMGTZCRny3C.gif" alt="alt text">
 
+## License
+
+Alamofire is released under the MIT license. See LICENSE for details.
